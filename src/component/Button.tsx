@@ -7,12 +7,12 @@ import './Button.css';
 
 const Button = () => {
     const { count, componentRef } = useClickCount();
-
-	return (
-		<button className={cnButton('')} ref={componentRef}>
+    
+    return (
+        <button className={cnButton('')} ref={componentRef}>
             {`Количество кликов: ${count}`}
-		</button>
-	);
+        </button>
+    );
 }
 
 export { Button };
