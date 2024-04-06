@@ -1,8 +1,8 @@
 .Button {
-  padding: 10px 20px;
-
-  font: 18px/1.2 sans-serif;
-
-  border-radius: 15px;
-  border: 1px solid gray;
+    padding: 10px 20px;
+    
+    font: 18px/1.2 sans-serif;
+    
+    border-radius: 15px;
+    border: 1px solid gray;
 }
