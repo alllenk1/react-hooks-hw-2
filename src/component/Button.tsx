@@ -10,7 +10,7 @@ const Button = () => {
     
     return (
         <button className={cnButton('')} ref={componentRef}>
-            {`Количество кликов: ${count}`}
+            Количество кликов: {count}
         </button>
     );
 }
