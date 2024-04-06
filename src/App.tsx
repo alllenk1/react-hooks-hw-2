@@ -1,26 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import { cnApp } from './App.classname';
+import { Button } from './component/Button';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+	return (
+		<div  className={cnApp('')}>
+			<h1 className={cnApp('Title')}>8.4 React-хуки</h1>
+            <h2 className={cnApp('Subtitle')}>Клик-полл</h2>
+
+			<Button />
+		</div>
+	);
 }
 
 export default App;
