@@ -7,7 +7,7 @@ const useClickCount = () => {
     useEffect(() => {
         const handleCount = (event: MouseEvent) => {
             if (componentRef.current && componentRef.current === event.target) {
-                setCount(prevCount => prevCount + 1);
+                setCount(prev => prev + 1);
             }
         };
 
